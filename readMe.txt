@@ -1,15 +1,20 @@
-//to create server file
+To create server file
 
+```
 gcc -o server server.c
+```
 
-//to create reciever file
-
+To create reciever file
+```
 gcc -o reciever reciever.c
+```
 
-//run reciever first
-
+Run reciever first
+```
 ./reciever <port Number>
+```
 
-// run sender
-
+Run sender
+```
 ./sender <Ip address> <Port Number> <File Name>
+```
